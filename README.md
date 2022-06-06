@@ -25,10 +25,10 @@ https://youtu.be/De-UjNVWko4
 3) Hit Unity's play button
 
 # How-to Change the Audio file: 
-![image](https://user-images.githubusercontent.com/2088877/172259955-fbde2a3d-ec3a-4e12-8f78-96fe6c7afdb4.png)
+![image](https://user-images.githubusercontent.com/2088877/172264558-96cf7824-724c-42d4-8e0f-9f49d529b16e.png)
 
 - Select the AudioLinkLumaSimulator Prefab in your hierarchy and right click => unpack prefab
-- click on "OMFG - Hello" and delete
+- click on "Rewayde - Attraction [Argofox Release]" and delete
 - Drop an audio file of your own into your scene
 - Click on AudioLinkAvatar
 - Drag and drop the audio file that you added in the scene into the "Audio Source" setting
@@ -87,8 +87,10 @@ https://furality.org/aqua-assets
 See their respective licenses located in their respective directories. 
 
 
-### Music included:  OMFG Hello by Argofox
-https://creativecommons.org/licenses/by/3.0/
+### Music provided by Argofox:
+Rewayde - Attraction [Argofox Release]
+
+https://youtu.be/KtgZG9SI6Ws
 
 You can visit his youtube or soundcloud for many more: 
 - https://www.youtube.com/user/MMMontageMusic
