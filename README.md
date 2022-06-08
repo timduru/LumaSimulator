@@ -22,6 +22,7 @@ If you need official help about the Aqua shader, make sure you have also tested 
 https://youtu.be/pCTmMCsuEOQ
 
 # Installation & Use: 
+Download the latest package from [Releases](https://github.com/timduru/LumaSimulator/releases)
 1) Import the unitypackage into your project
 2) Drag and drop the "AudioLinkLumaSimulator" prefab into your scene (Located in Assets/AudioLinkLumaSimulation)
 3) Hit Unity's play button
