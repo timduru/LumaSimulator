@@ -15,9 +15,11 @@ I only repackaged and configured them so that it's easy and just a drag and drop
 Please note that it is not an officially supported method of testing by Furality (yet ? ;) ). 
 As such don't request for assistance about it to the Furality staff. 
 
+If you need official help about the Aqua shader, make sure you have also tested with the shader's debug mode and Fynn's room before asking for help in Furality's discord.
+
 
 # Youtube Video how-to and demo: 
-https://youtu.be/De-UjNVWko4
+https://youtu.be/pCTmMCsuEOQ
 
 # Installation & Use: 
 1) Import the unitypackage into your project
@@ -45,6 +47,10 @@ But if you deactivate the AudioLinkAvatar, as lumadriver is using audiolink to s
 (it does the same when there is no audio with this prefab, Lumadriver will fall back into idle mode)
 
 If you need to , you can see on Lumadriver's github page for more information on how to further configure its different modes, speeds, colors and so on. You have many options at hand to do further testings ! :)
+
+Configuration can be accessed from the LumaDriver_Driver Material in your Project's assets: 
+![image](https://user-images.githubusercontent.com/2088877/172584795-1c6575c0-a612-47a1-8f4f-41502f846cf7.png)
+
 
 
 # Different ways of testing your Luma Materials:
