@@ -56,7 +56,7 @@ Configuration can be accessed from the LumaDriver_Driver Material in your Projec
 ## Fynn's room world in VRChat 
 it will allow you to test the zones and by default gives you a very slow changing glow, you can make your first test in that mode with a white emission and a zone for example (and you should then see it glow and change color in fynn's room)
 
-There is also now a "Debug Luma Glow" button that feeds a loop of past Furality Legends data from one of the previous DJ.
+There is also now a "Luma Glow Test" button that feeds a loop of past Furality Legends data from one of the previous DJ.
 ![image](https://user-images.githubusercontent.com/2088877/173049539-2aab8006-bf9a-494c-86c8-810862842332.png)
 Using this button you'll get a more accurate representation of the live data. 
 
