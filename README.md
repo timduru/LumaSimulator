@@ -25,6 +25,13 @@ Download the latest package from [Releases](https://github.com/timduru/LumaSimul
 2) Drag and drop the "AudioLinkLumaSimulator" prefab into your scene (Located in Assets/AudioLinkLumaSimulation)
 3) Hit Unity's play button
 
+The Default AudioLinkLumaSimulator prefab tries to be more like the new data feed in fynn's room which is from one of the DJ's last year at Furality Legends, 
+where the gradients have more gaps and are more often unicolors.
+(Gradient1 & 2 are like that in this default prefab, gradient 3 is a bit more multicolor.) 
+
+Alternatively you have another prefab you can use that will react more like at luminescent ledge and have much more dynamic and full colorful gradients.
+Like it was before V03 of this package. 
+
 # How-to Change the Audio file: 
 ![image](https://user-images.githubusercontent.com/2088877/172264558-96cf7824-724c-42d4-8e0f-9f49d529b16e.png)
 
@@ -38,7 +45,7 @@ Download the latest package from [Releases](https://github.com/timduru/LumaSimul
 
 # Configuration
 
-By default both audiolink and luma are on by default, so your audiolink materials will also react.
+Both audiolink and luma are on by default, so your audiolink materials will also react.
 
 If you want to force one or the other mode (Luma / Audiolink) you can either disable LumaDriver or the AudiolinkAvatar  in the Hierarchy 
 
