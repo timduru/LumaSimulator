@@ -719,7 +719,11 @@
                                 else
                                     uv = float2((1 - ratio) * _BandG1Length, _BandG1);
                             }
+
+
                             val = tex2D(_AudioTexture, uv).x;
+
+
                         }
 
                         return getGradientOutput(isALOn, isDMXOn, IN.localTexcoord.x, rgb, rgbA, rgbB, rgbC, ratio, time, val, midStop, _FadingG1, _ShiftG1StopA, _ShiftG1StopB, _ShiftG1StopC, _ALccG1, _DMXccG1Enable, _DMXintG1, 5, _ColorOverrideG1, fixed3(1, 0, 0));
