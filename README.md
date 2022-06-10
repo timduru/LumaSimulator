@@ -3,8 +3,6 @@
 You can easily test your materials with the [AquaShader](https://furality.org/aqua-assets) or [Poiyomi-Luma](https://github.com/timduru/Kat.PoiyomiToonShader) that way and see the result in real time as you change parameters in the shaders while running the scene in unity.
 (You can also test your pure audiolink materials the same way too)
 
-It will help to give you a very good idea of what to expect and allows you to test better your materials and more advanced shader configurations that are not possible to test in Fynn's room or with the shader's debug mode for example.
-
 
 It is simply using the Audio Link avatar testing prefab and LumaDriver in a preconfigured way so that they work together :)
 I only repackaged and configured them so that it's easy and just a drag and drop to add it into your projects.
@@ -22,6 +20,7 @@ If you need official help about the Aqua shader, make sure you have also tested 
 https://youtu.be/pCTmMCsuEOQ
 
 # Installation & Use: 
+Download the latest package from [Releases](https://github.com/timduru/LumaSimulator/releases)
 1) Import the unitypackage into your project
 2) Drag and drop the "AudioLinkLumaSimulator" prefab into your scene (Located in Assets/AudioLinkLumaSimulation)
 3) Hit Unity's play button
@@ -55,8 +54,12 @@ Configuration can be accessed from the LumaDriver_Driver Material in your Projec
 
 # Different ways of testing your Luma Materials:
 ## Fynn's room world in VRChat 
-it will allow you to test the zones and gives you a very slow changing glow, you can make the first tests there with a basic white emission for example 
-(you should then see it glow and change color in fynn's room)
+it will allow you to test the zones and by default gives you a very slow changing glow, you can make your first test in that mode with a white emission and a zone for example (and you should then see it glow and change color in fynn's room)
+
+There is also now a "Luma Glow Test" button that feeds a loop of past Furality Legends data from one of the previous DJ.
+![image](https://user-images.githubusercontent.com/2088877/173049539-2aab8006-bf9a-494c-86c8-810862842332.png)
+Using this button you'll get a more accurate representation of the live data. 
+
 
 ## Debug mode in the AquaShader
 If you check the box at the bottom of the shader's settings, it will simulate some of the zones activity too directly in unity 
@@ -82,11 +85,12 @@ All of these methods have their pros and cons.
 And keep in mind that the end result will be a bit different because the effects will be human controlled in Furality's worlds and custom for each DJs. 
 
 Note that as the effects are generated for Luma based on the audio(link) in both Luminescent Ledge and this prefab
-overall what you see in the simulation is most likely more "dynamic" and keeps the effects on more often at the same time than what you might see in Furality's Club world in the end. Especially if you use both a zone + audio on an emission, they tend to trigger often at the same time in the simulation and making nice effects, while one of the two might be off in Furality's worlds in the end, and they might not trigger as often at the same time.
+overall what you see in the simulation is most likely more "dynamic" and keeps the effects on more often at the same time than what you might see in Furality's Club world in the end. 
+Especially if you use both a zone + audio on an emission, as the gradient zones in Furality's club tend to have more "holes" in them,  your emission will turn off more often.
 
 To do further testing you can also play with lumadriver's rich options.
 
-And be prepared to fine tunes things on the 1st day as we finally get real luma data from the club and worlds :)
+And be prepared to fine tunes things on the 1st day as we get the new updated luma data from the club and worlds :)
 
 
 # Credits & Links: 
