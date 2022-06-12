@@ -26,11 +26,11 @@ Download the latest package from [Releases](https://github.com/timduru/LumaSimul
 3) Hit Unity's play button
 
 The Default AudioLinkLumaSimulator prefab tries to be more like the new data feed in fynn's room which is from one of the DJ's last year at Furality Legends, 
-where the gradients have more gaps and are more often unicolors.
+where the gradients have more black gaps and are more often unicolors.
 (Gradient1 & 2 are like that in this default prefab, gradient 3 is a bit more multicolor.) 
 
 Alternatively you have another prefab you can use that will react more like at luminescent ledge and have much more dynamic and full colorful gradients.
-Like it was before V03 of this package. 
+Like it was before V03 of this package and is in luminescent ledge.
 
 # How-to Change the Audio file: 
 ![image](https://user-images.githubusercontent.com/2088877/172264558-96cf7824-724c-42d4-8e0f-9f49d529b16e.png)
@@ -64,8 +64,10 @@ Configuration can be accessed from the LumaDriver_Driver Material in your Projec
 it will allow you to test the zones and by default gives you a very slow changing glow, you can make your first test in that mode with a white emission and a zone for example (and you should then see it glow and change color in fynn's room)
 
 There is also now a "Luma Glow Test" button that feeds a loop of past Furality Legends data from one of the previous DJ.
+
 ![image](https://user-images.githubusercontent.com/2088877/173049539-2aab8006-bf9a-494c-86c8-810862842332.png)
-Using this button you'll get a more accurate representation of the live data. 
+
+Using this button you'll get a more accurate representation of the live data that will be sent in the Club during Furality Aqua
 
 
 ## Debug mode in the AquaShader
@@ -82,7 +84,7 @@ In that world you can put a video in the player and it'll react to audio too in 
 ## LumaSimulator Prefab
 You are here :P 
 
-You can just drop it into your unity project and it will do something similar to luminescent ledge and allow you to test by just pressing the unity play button.  
+You can just drop it into your unity project and it will allow you to test by just pressing the unity play button.  
 
 Overall it's still better to also test in VRChat as the lighting is not the same in your unity project, especially if you're using transparency.
 
@@ -92,13 +94,21 @@ All of these methods have their pros and cons.
 And keep in mind that the end result will be a bit different because the effects will be human controlled in Furality's worlds and custom for each DJs. 
 
 Note that as the effects are generated for Luma based on the audio(link) in both Luminescent Ledge and this prefab
-overall what you see in the simulation is most likely more "dynamic" and keeps the effects on more often at the same time than what you might see in Furality's Club world in the end. 
-Especially if you use both a zone + audio on an emission, as the gradient zones in Furality's club tend to have more "holes" in them,  your emission will turn off more often.
+overall what you see in the simulation is most likely more "dynamic" and keeps the effects lit more often at the same time than what you might see in Furality's Club world in the end. 
+Especially if you use both a zone + audio on an emission and the Ledge Prefab, as the gradient zones in Furality's club tend to have more "black gaps" in them, so your emission will turn dark more often.
 
-To do further testing you can also play with lumadriver's rich options.
+The default prefab tries to be closer to the real data from last year in fynn's club with more gaps in the gradients. 
+
+The Ledge prefab allows you to test things closer to what you see in luminescent ledge where effects are kept lit more often and with more colorful gradients. 
+
+To do further testing you can also play with lumadriver's rich options. See lumadriver's page for more info
 
 And be prepared to fine tunes things on the 1st day as we get the new updated luma data from the club and worlds :)
 
+## Useful Tutorials to get you started for Furality Aqua: 
+- [Furality Aqua Shader - Luma Glow Quick Start](https://www.youtube.com/watch?v=2g_9B9S4TDo)
+- [Furality Aqua Shader Luma Glow Setup](https://www.youtube.com/watch?v=1M-WCmDDUGg)
+- [Furality Aqua Fins Tutorial](https://youtu.be/EbrsZ8R_7Lg)
 
 # Credits & Links: 
 ### LumaDriver made by Thorinair
